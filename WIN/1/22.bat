@@ -12,6 +12,7 @@ if exist ficheros.txt (
 for /r %%a in (%directorio%\%caracteres%*) do (
     if "!contador!" == "0" (
        echo %%a >> ficheros.txt
+       )
 )
 
 if exist ficheros.txt (
